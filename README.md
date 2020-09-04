@@ -34,7 +34,13 @@ You have been warned, be smart and have fun :)!
 It was recently discovered that the shader code pertaining to the bloom/dof effects ([that were seen in some mid 2006 screenshots of the game](https://blog.roblox.com/wp-content/uploads/2017/02/Aug20063.png)) are still present in this build, they are just disabled. You can enable them by using a hex editor on the game client exe. I personally use HxD.
 
 Anyway, the offsets for these effects are listed below. You have to go to that offset and set its value from 00 to 01.
-* Bloom: `102951`
+* Bloom: `102951` 
 * Depth of Field: `10295E`
 
 ![image](https://devforum.roblox.com/uploads/default/original/3X/0/8/08be34da6f6892b59f4e26db208ce7822d82bdc9.jpg)
+
+NOTE BY LUAMAN:
+the offsets for Roblox `0.3.488.0` (the earliest build currently in the wild) are as follows:
+
+* Bloom: `FE891`
+* Depth of Field: `FE89E`
