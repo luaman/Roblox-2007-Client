@@ -40,7 +40,8 @@ Anyway, the offsets for these effects are listed below. You have to go to that o
 ![image](https://devforum.roblox.com/uploads/default/original/3X/0/8/08be34da6f6892b59f4e26db208ce7822d82bdc9.jpg)
 
 NOTE BY LUAMAN:
-the offsets for Roblox `0.3.488.0` (the earliest build currently in the wild) are as follows:
+the offsets for Roblox `0.3.488.0` are as follows:
 
 * Bloom: `FE891`
 * Depth of Field: `FE89E`
+
